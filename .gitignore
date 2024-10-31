@@ -1,0 +1,44 @@
+# WordPress core files
+wp-admin/
+wp-includes/
+
+# Configuration files
+wp-config.php
+
+# Content and cache
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Plugins and themes
+wp-content/plugins/
+wp-content/themes/*
+
+# Uncomment if developing a custom theme or plugin
+# !wp-content/themes/your-custom-theme/
+# !wp-content/plugins/your-custom-plugin/
+
+# Logs, backups, and miscellaneous
+*.log
+*.sql
+*.tar.gz
+*.zip
+backup/
+.DS_Store
+Thumbs.db
+
+# Dependencies
+vendor/
+node_modules/
+
+# Ignore everything in the wp-content directory except the theme you're working on
+wp-content/*
+!wp-content/themes/
+!wp-content/themes/yia-theme
+wp-content/plugins/
+wp-content/uploads/
+
+# Ignore Local by Flywheel’s config files
+.config/
+*.sql
+*.tar
