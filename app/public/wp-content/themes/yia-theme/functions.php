@@ -16,3 +16,6 @@ function load_js() {
 }
 
 add_action('wp_enqueue_scripts', 'load_js');
+
+
+
