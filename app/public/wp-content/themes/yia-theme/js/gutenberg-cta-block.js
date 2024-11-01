@@ -15,7 +15,7 @@ registerBlockType('yiablock/custom-cta', {
 
     //custom attributes
 
-    attribute:{},
+    attributes:{},
 
 
 
